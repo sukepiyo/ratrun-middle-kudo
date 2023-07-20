@@ -2,15 +2,16 @@
   <div>
     <AppHeader />
     <NuxtPage />
-    <p>フッター</p>
+    <AppFooter />
   </div>
 </template>
 
 
 <script>
 import { AppHeader } from "../components/organisms/Header";
+import { AppFooter } from "../components/organisms/Footer";
 export default {
-  components: { AppHeader },
+  components: { AppHeader, AppFooter },
 };
 </script>
 <style lang='scss' scoped>
